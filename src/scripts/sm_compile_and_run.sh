@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 
-PARSE_PROFILE="/usr/bin/parse_profile.sh"
-
 if [ "x${SHAREMIND_INSTALL_PREFIX}" = "x" ]; then
     SHAREMIND_INSTALL_PREFIX=$(readlink -f $(dirname $0)/..)
 fi
@@ -12,6 +10,7 @@ EMULATOR="${SHAREMIND_INSTALL_PREFIX}/bin/sharemind-emulator"
 EMULATOR_PROFILE="emulator-profile.csv"
 SCC="${SHAREMIND_INSTALL_PREFIX}/bin/scc"
 STDLIB="${SHAREMIND_INSTALL_PREFIX}/lib/sharemind/stdlib"
+PARSE_PROFILE="${SHAREMIND_INSTALL_PREFIX}/bin/parse_profile.sh"
 
 if [ $# -eq 0 ]; then
     echo "No arguments given."
