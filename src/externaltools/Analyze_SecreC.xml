@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<externaltool id="Analyze_SecreC">
+    <description>Compile, run and analyze a SecreC file.</description>
+    <displayname>Analyze SecreC</displayname>
+    <category>Sharemind SDK</category>
+    <executable output="showinpane" error="showinpane" modifiesdocument="yes">
+        <path>sm_compile_and_run_and_analyze.sh</path>
+        <arguments>%{CurrentDocument:FilePath}</arguments>
+        <workingdirectory>%{CurrentDocument:Path}</workingdirectory>
+    </executable>
+</externaltool>

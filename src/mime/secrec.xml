@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mime-info xmlns="http://www.freedesktop.org/standards/shared-mime-info">
+  <!-- Mime types must match the desktop file associations -->
+  <mime-type type="text/vnd.cyber.secrec">
+    <comment xml:lang="en">SecreC code file</comment>
+    <glob pattern="*.sc"/>
+  </mime-type>
+</mime-info>
