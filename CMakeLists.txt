@@ -23,7 +23,7 @@ INSTALL(
     )
 INSTALL(
     FILES ${SRCDIR}/mime/secrec.xml
-    DESTINATION "share/qtcreator/mime/"
+    DESTINATION "share/mime/packages/"
     COMPONENT "plugin"
     )
 FILE(GLOB QTCREATOR_EXTERNALTOOLS "${SRCDIR}/externaltools/*.xml")
@@ -42,7 +42,7 @@ INSTALL(PROGRAMS ${QTCREATOR_SCRIPTS}
 SharemindSetupPackaging()
 SharemindAddComponentPackage("plugin"
     NAME "qtcreator-plugin-sharemind-mpc"
-    DESCRIPTION "Sharemind SDK development plugin for QtCreator"
+    DESCRIPTION "Sharemind SDK development plugin and helper scripts for QtCreator"
     DEB_SECTION "devel"
 )
 SharemindPackagingFinalize()
