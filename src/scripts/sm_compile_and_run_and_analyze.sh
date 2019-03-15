@@ -3,7 +3,7 @@
 ANALYZER="analyzer-gui"
 
 if [ "x${SHAREMIND_INSTALL_PREFIX}" = "x" ]; then
-    SHAREMIND_INSTALL_PREFIX="/usr"
+    SHAREMIND_INSTALL_PREFIX=$(readlink -f $(dirname $0)/..)
 fi
 
 echo "Using SHAREMIND_INSTALL_PREFIX='${SHAREMIND_INSTALL_PREFIX}'"
