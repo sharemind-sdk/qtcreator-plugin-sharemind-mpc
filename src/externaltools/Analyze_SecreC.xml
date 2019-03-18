@@ -7,5 +7,6 @@
         <path>sm_compile_and_run_and_analyze.sh</path>
         <arguments>%{CurrentDocument:FilePath}</arguments>
         <workingdirectory>%{CurrentDocument:Path}</workingdirectory>
+        <environment>PATH%3D%24%7BPATH%7D%3A%2Fusr%2Flocal%2Fbin%3A%2Fusr%2Flocal%2Fsharemind%2Fbin</environment>
     </executable>
 </externaltool>
