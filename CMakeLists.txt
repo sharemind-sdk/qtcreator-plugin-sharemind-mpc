@@ -44,5 +44,7 @@ SharemindAddComponentPackage("plugin"
     NAME "qtcreator-plugin-sharemind-mpc"
     DESCRIPTION "Sharemind SDK development plugin and helper scripts for QtCreator"
     DEB_SECTION "devel"
+    DEB_RECOMMENDS
+        "qtcreator"
 )
 SharemindPackagingFinalize()
