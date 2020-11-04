@@ -12,7 +12,7 @@ PROJECT(qtcreator-plugin-sharemind-mpc VERSION 0.1.0 )
 INCLUDE("${CMAKE_CURRENT_SOURCE_DIR}/config.local" OPTIONAL)
 INCLUDE("${CMAKE_CURRENT_BINARY_DIR}/config.local" OPTIONAL)
 
-FIND_PACKAGE(SharemindCMakeHelpers 1.4 REQUIRED)
+FIND_PACKAGE(SharemindCMakeHelpers 1.6 REQUIRED)
 
 SET(SRCDIR "${CMAKE_CURRENT_SOURCE_DIR}/src")
 
