@@ -7,7 +7,7 @@
 # code is subject to the appropriate license agreement.
 #
 CMAKE_MINIMUM_REQUIRED(VERSION 3.0)
-PROJECT(qtcreator-plugin-sharemind-mpc VERSION 0.1.0 )
+PROJECT(qtcreator-plugin-sharemind-mpc VERSION 0.1.1)
 
 INCLUDE("${CMAKE_CURRENT_SOURCE_DIR}/config.local" OPTIONAL)
 INCLUDE("${CMAKE_CURRENT_BINARY_DIR}/config.local" OPTIONAL)
